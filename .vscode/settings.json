@@ -1,0 +1,7 @@
+{
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.autoSaveDelay": 100000,
+  "singleQuote": true
+}
