@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import { Box, Container, Grid, Pagination } from "@material-ui/core";
 
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import ProductListToolbar from "../components/product/ProductListToolbar";
+import TopBar from "./TopBar";
 import FeaturedPost from "./FeaturedPost";
 import { deleteItem, fetchQuestions } from "src/data/data";
 
@@ -39,7 +39,7 @@ export default function Question() {
         }}
       >
         <Container>
-          <ProductListToolbar />
+          <TopBar />
           <Box sx={{ pt: 3 }}>
             <Container maxWidth="lg">
               <main>
