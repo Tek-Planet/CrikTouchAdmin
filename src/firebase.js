@@ -2,21 +2,15 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore/lite";
 import { getStorage } from "firebase/storage";
 const firebaseConfig = {
-  apiKey: "AIzaSyCCrBO9FJ1BaxuffHlti4nx1BSH7samikw",
+  // databaseURL: "https://reactnative-1daa2.firebaseio.com",
 
-  authDomain: "reactnative-1daa2.firebaseapp.com",
-
-  databaseURL: "https://reactnative-1daa2.firebaseio.com",
-
-  projectId: "reactnative-1daa2",
-
-  storageBucket: "reactnative-1daa2.appspot.com",
-
-  messagingSenderId: "285119966849",
-
-  appId: "1:285119966849:web:0845ce3bc412d85ae42780",
-
-  measurementId: "G-LNB7TSK2FT"
+  apiKey: "AIzaSyBN0DO3iBb9IslZ0Ol9d-SwOuXz0WkHceM",
+  authDomain: "crik-touch.firebaseapp.com",
+  projectId: "crik-touch",
+  storageBucket: "crik-touch.appspot.com",
+  messagingSenderId: "989035743504",
+  appId: "1:989035743504:web:a22589bbdbaa87cbe6fd95",
+  measurementId: "G-Q6LHJL3F40"
 };
 
 // Initialize Firebase
